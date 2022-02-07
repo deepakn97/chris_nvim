@@ -65,6 +65,7 @@ return packer.startup(function(use)
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
+  use "hrsh7th/cmp-nvim-lua" -- The lua completion plugin
   use "hrsh7th/cmp-buffer" -- buffer completions
   use "hrsh7th/cmp-path" -- path completions
   use "hrsh7th/cmp-cmdline" -- cmdline completions
@@ -83,6 +84,7 @@ return packer.startup(function(use)
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"
+  use 'sso://googler@user/vintharas/telescope-codesearch.nvim'
 
   -- Treesitter
   use {
